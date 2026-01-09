@@ -1,0 +1,26 @@
+Retrieval Augmented Generation (RAG) is a technique used in artificial intelligence
+to improve the accuracy of large language models.
+
+RAG works by combining two main steps: retrieval and generation.
+In the retrieval step, the system searches external documents to find information
+that is relevant to the user’s question.
+In the generation step, the language model uses the retrieved information
+to produce a final answer.
+
+One major advantage of RAG is that it reduces hallucinations.
+Hallucinations happen when an AI model makes up information that is not true.
+By grounding responses in real documents, RAG helps ensure more reliable answers.
+
+RAG systems often use vector databases.
+Text documents are converted into numerical representations called embeddings.
+These embeddings allow the system to perform semantic search,
+which means it can find information based on meaning rather than exact keywords.
+
+RAG is commonly used in applications such as document assistants,
+customer support bots, internal company knowledge bases,
+and research tools.
+
+Although RAG systems are powerful, they must be designed carefully.
+Large documents should be split into smaller chunks.
+Only the most relevant chunks should be sent to the language model
+to avoid exceeding token limits and to improve performance.
